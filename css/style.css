@@ -1,0 +1,347 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*=============================
+Common Css
+===============================*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Slab', serif;
+}
+/*=============================
+nav section
+===============================*/
+nav li a{
+    color: #674140 !important;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+nav li a.last{
+    background: #ef3624 !important;
+    font-weight: 600;
+    color: #fff !important;
+}
+nav li a:hover{
+    background: #ef3624;
+    color: #fff !important;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s
+}
+/*=============================
+header area
+===============================*/
+#header{
+    background:url(../img/banner.jpg) no-repeat center center / cover;
+    height:96vh;
+    margin-top: 60px;
+}
+#header h1{
+    font-weight: 900;
+}
+#header button{
+    color: #674140 !important;
+    font-weight: 600;
+}
+#header button:hover{
+    background: #ef3624 !important;
+    color:#fff !important;
+    -webkit-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s
+}
+/*=============================
+hero area
+===============================*/
+#hero{
+    padding: 80px 0 30px 0 !important;
+}
+#hero p{
+    color:#492e2d;
+    font-weight: 500;
+}
+#hero h2{
+    color:#492e2d;
+}
+#hero p:first-child{
+    color:#ef3624;
+}
+/*=============================
+feather area
+===============================*/
+#feather{
+    background:#f3efef;
+    padding: 30px 0 80px 0 !important;
+}
+#feather .row .col p{
+    color:#ef3624 !important;
+    font-weight: 500;
+}
+#feather .row .col h2{
+    color:#492e2d;
+}
+#feather h5{
+    color: #674140 !important;
+    font-weight: 700;
+}
+#feather p,button{
+    color: #674140 !important;
+    font-weight: 500;
+}
+#feather h3{
+    color: #ef3624
+}
+#feather .card:hover button{
+    background:#ef3624;
+    color: #fff !important;
+    -webkit-transition:.2s;
+    -o-transition:.2s;
+    transition:.2s
+}
+#feather .card:hover{
+    -webkit-transition:.4s;
+    -o-transition:.4s;
+    transition:.4s;
+    border:thin solid #ef3624
+}
+
+#hot{
+    background:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.7)), to(rgba(0,0,0,0.7))), url(../img/bl.jpg) no-repeat center center / cover;
+    background:-o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/bl.jpg) no-repeat center center / cover;
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/bl.jpg) no-repeat center center / cover;
+    padding: 80px 0px !important;
+}
+#hot button{
+    background:#ef3524c9
+}
+/*=============================
+feather area
+===============================*/
+#testimonial{
+    padding : 80px 0;
+}
+#testimonial img{
+    width:120px;
+    height:120px
+}
+#testimonial h5{
+    color: #4b2524
+}
+#testimonial h2{
+    color:#492e2d;
+}
+#testimonial p:first-child{
+    color:#ef3624;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #4b2524;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #fff;
+    border: 2px solid #4b2524;
+    width:1rem;
+    height:1rem;
+}
+/*=============================
+video area
+===============================*/
+#video{
+    padding: 170px 0;
+    background:url(../img/video.jpg) no-repeat center center / cover;
+    z-index: 9999 !important;
+}
+#video a{
+    font-size: 2.5rem;
+    color:#fff;
+    background: #ff2a44;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    width:5.2rem;
+    height:5.2rem;
+    border-radius: 50%;
+    margin: auto;
+    outline:1.3rem solid rgba(255,255,255,0.5) !important;
+}
+/*=============================
+subscribe area
+===============================*/
+#subscribe h2{
+    color:#492e2d;
+}
+#subscribe .row .col p{
+    color:#ef3624 !important;
+    font-weight: 500;
+}
+#subscribe button{
+    background: #ed3326  !important;
+    color:#fff !important;
+    width:300px;
+    border-radius: 0 !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+#subscribe input{
+    border:none !important;
+}
+#subscribe input::-webkit-input-placeholder{
+    color:#492e2d !important;
+    font-weight: 600;
+}
+#subscribe input::-moz-placeholder{
+    color:#492e2d !important;
+    font-weight: 600;
+}
+#subscribe input:-ms-input-placeholder{
+    color:#492e2d !important;
+    font-weight: 600;
+}
+#subscribe input::-ms-input-placeholder{
+    color:#492e2d !important;
+    font-weight: 600;
+}
+#subscribe input::placeholder{
+    color:#492e2d !important;
+    font-weight: 600;
+}
+/*=============================
+contact area
+===============================*/
+#contact{
+    padding: 100px 0;
+    background:-webkit-gradient(linear,left top, left bottom,from(rgba(243, 156, 18,0.8)),to(rgba(243, 156, 18,0.8))) , url(../img/contact.jpg) no-repeat center center / cover;
+    background:-o-linear-gradient(rgba(243, 156, 18,0.8),rgba(243, 156, 18,0.8)) , url(../img/contact.jpg) no-repeat center center / cover;
+    background:linear-gradient(rgba(243, 156, 18,0.8),rgba(243, 156, 18,0.8)) , url(../img/contact.jpg) no-repeat center center / cover;
+}
+#contact input,
+#contact textarea{
+    background:none !important;
+    border:none;
+    border-bottom: 2px solid #fff;
+}
+#contact input::-webkit-input-placeholder, #contact textarea::-webkit-input-placeholder{
+    color:rgba(255, 255, 255, 0.5) !important;
+}
+#contact input::-moz-placeholder, #contact textarea::-moz-placeholder{
+    color:rgba(255, 255, 255, 0.5) !important;
+}
+#contact input:-ms-input-placeholder, #contact textarea:-ms-input-placeholder{
+    color:rgba(255, 255, 255, 0.5) !important;
+}
+#contact input::-ms-input-placeholder, #contact textarea::-ms-input-placeholder{
+    color:rgba(255, 255, 255, 0.5) !important;
+}
+#contact input::placeholder,
+#contact textarea::placeholder{
+    color:rgba(255, 255, 255, 0.5) !important;
+}
+#contact .col-md-4{
+    margin-top: 14rem;
+}
+/*=============================
+footer area
+===============================*/
+footer{
+    padding: 70px 0 50px 0;
+    background: #5f3737;
+    color:#fff !important;
+}
+footer .icons a{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    background: rgba(243, 156, 18,0.8);
+    color:#fff;
+    text-decoration: none;
+    display:-ms-grid;
+    display:grid;
+    place-items: center;
+    float:left;
+    margin: 0 5px;
+}
+footer  li a{
+    color:#fff !important;
+    margin-left: 8px;
+}
+footer  li{
+    line-height: 30px;
+}
+footer form input{
+    border:none !important;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+footer form button{
+    border-radius: 0px !important;
+    border-top-right-radius:5px !important;
+    border-bottom-right-radius:5px !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+}
+@media only screen and (max-width: 992px){
+    nav li{
+        padding : .7rem 0;
+    }
+    #header{
+        height:50vh 
+    }
+}
+@media only screen and (max-width: 792px){
+    nav li{
+        padding : .7rem 0;
+    }
+    #contact .col-md-4{
+        margin-top: 0;
+        margin-bottom:1rem;
+    }
+}
+@media only screen and (max-width: 576px){
+    #subscribe button{
+        width:200px;
+        padding: .5rem  !important;
+        font-size: 1rem !important;
+    }
+    footer .d-flex input{
+        padding: .5rem  !important;
+    }
+    footer .d-flex button{
+        padding: .5rem  !important;
+        font-weight: 500;
+    }
+}
+.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}
